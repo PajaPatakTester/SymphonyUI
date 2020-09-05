@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Threading;
 
@@ -54,6 +55,19 @@ namespace Framework
 
 
                 Console.WriteLine($"Wait for it");
+            }
+        }
+
+        public static void WaitForAjax()
+        {
+            Stopwatch st = new Stopwatch();
+            st.Start();
+            while (st.ElapsedMilliseconds < 5000)
+            {
+                var ajaxIsComplete = (bool)(WebDriver.Instance as IJavaScriptExecutor).ExecuteScript("return jQuery.active == 0");
+                if (ajaxIsComplete)
+                    break;
+                Thread.Sleep(100);
             }
         }
 

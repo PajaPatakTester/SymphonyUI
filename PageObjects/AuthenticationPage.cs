@@ -25,13 +25,7 @@ namespace PageObjects
 
         // Create an account
         public void CreateEmailAddressInput(string email) => CreateEmailField().SendKeys(email);
-        public void CreateAnAccountClick()
-        {
-            CreateAnAccountBtn().Click();
-
-        }
-
-       
+        public void CreateAnAccountClick() => CreateAnAccountBtn().Click();
         #endregion
     }
 }
