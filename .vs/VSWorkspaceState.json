@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Driver",
+    "\\Framework",
+    "\\PageObjects",
+    "\\TestSuite"
+  ],
+  "SelectedNode": "\\Framework\\WebDriver.cs",
+  "PreviewInSolutionExplorer": false
+}

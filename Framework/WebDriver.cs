@@ -12,11 +12,18 @@ namespace Framework
         public static readonly TimeSpan PageLoad = TimeSpan.FromSeconds(20);
         public static IWebDriver Instance { get; set; }
 
+        private static ChromeOptions GetChromeOptions()
+        {
+            var chromeOptions = new ChromeOptions();
+            chromeOptions.AddArgument("--disable-application-cache");
+            return chromeOptions;
+        }
+
         public static void Initialize()
         {
             Instance?.Quit();
 
-            Instance = new ChromeDriver();
+            Instance = new ChromeDriver(GetChromeOptions());
 
             // waits
             Instance.Manage().Timeouts().PageLoad = PageLoad;

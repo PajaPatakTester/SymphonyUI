@@ -18,3 +18,9 @@ C:\Vebbis\Repos\UI.Reg\Driver\bin\Debug\Driver.pdb
 C:\Vebbis\Repos\UI.Reg\Driver\obj\Debug\Driver.csproj.CoreCompileInputs.cache
 C:\Vebbis\Repos\UI.Reg\Driver\obj\Debug\Driver.dll
 C:\Vebbis\Repos\UI.Reg\Driver\obj\Debug\Driver.pdb
+C:\Symphony\Repos\SymphonyUI\Driver\bin\Debug\chromedriver.exe
+C:\Symphony\Repos\SymphonyUI\Driver\bin\Debug\Driver.dll
+C:\Symphony\Repos\SymphonyUI\Driver\bin\Debug\Driver.pdb
+C:\Symphony\Repos\SymphonyUI\Driver\obj\Debug\Driver.csproj.CoreCompileInputs.cache
+C:\Symphony\Repos\SymphonyUI\Driver\obj\Debug\Driver.dll
+C:\Symphony\Repos\SymphonyUI\Driver\obj\Debug\Driver.pdb
