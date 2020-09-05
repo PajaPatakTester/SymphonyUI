@@ -16,7 +16,8 @@ namespace TestSuite
         private StateEnum _stateEnum;
         private string _zipCode;
         private string _phoneNo;
-        //bstest @test.com
+        private int _bestSellers;
+        private int _popular;
 
         private HomePage _homePage;
         private AuthenticationPage _authPage;
@@ -32,6 +33,8 @@ namespace TestSuite
             _stateEnum = StateEnum.Alaska;
             _zipCode = "11000";
             _phoneNo = "555-6666666";
+            _bestSellers = 7;
+            _popular = 7;
 
             _homePage = new HomePage();
             _authPage = new AuthenticationPage();
@@ -40,7 +43,7 @@ namespace TestSuite
         }
 
         [Test]
-        public void VerifyCreationOfAnAccount()
+        public void TC01_VerifyCreationOfAnAccount()
         {
             _homePage.GoTo();
             _homePage.SignInClick();
@@ -62,6 +65,19 @@ namespace TestSuite
 
             Assert.IsTrue(_myAccountPage.VerifySignoutDisplayed(), "Should be on My Account page.");
 
+        }
+
+        [Test]
+        public void TC02_VerifyNumberOfDisplayedProductsOnHomePage()
+        {
+            _homePage.GoTo();
+
+            Assert.IsTrue(_homePage.VerifyNumberOfDisplayedPopularProducts(_popular), $@"Page should show {_popular} popular products.");
+
+
+            _homePage.BestSellersClick();
+
+            Assert.IsTrue(_homePage.VerifyNumberOfDisplayedBestSellersProducts(_popular), $@"Page should show {_popular} products.");
         }
     }
 }
