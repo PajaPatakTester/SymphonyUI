@@ -25,3 +25,5 @@ C:\Symphony\Repos\SymphonyUI\TestSuite\obj\Debug\TestSuite.csproj.CoreCompileInp
 C:\Symphony\Repos\SymphonyUI\TestSuite\obj\Debug\TestSuite.csproj.CopyComplete
 C:\Symphony\Repos\SymphonyUI\TestSuite\obj\Debug\TestSuite.dll
 C:\Symphony\Repos\SymphonyUI\TestSuite\obj\Debug\TestSuite.pdb
+C:\Symphony\Repos\SymphonyUI\TestSuite\bin\Debug\WebDriver.Support.dll
+C:\Symphony\Repos\SymphonyUI\TestSuite\bin\Debug\WebDriver.Support.xml

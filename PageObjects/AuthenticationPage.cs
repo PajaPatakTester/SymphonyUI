@@ -19,11 +19,14 @@ namespace PageObjects
         #region Actions
         // Create an account
         public void CreateEmailAddressInput(string email) => CreateEmailField().SendKeys(email);
-        public void CreateAnAccountClick() => CreateAnAccountBtn().Click();
+        public void CreateAnAccountClick()
+        {
+            CreateAnAccountBtn().Click();
+           
+        }
 
         // Sign in
-
-        public void SignIn (string email, string password = "somePassword123")
+        public void SignIn(string email, string password = "somePassword123")
         {
             SignInEmailField().SendKeys(email);
             SignInPassField().SendKeys(password);

@@ -104,4 +104,5 @@ C:\Symphony\Repos\SymphonyUI\PageObjects\obj\Debug\PageObjects.csproj.CoreCompil
 C:\Symphony\Repos\SymphonyUI\PageObjects\obj\Debug\PageObjects.csproj.CopyComplete
 C:\Symphony\Repos\SymphonyUI\PageObjects\obj\Debug\PageObjects.dll
 C:\Symphony\Repos\SymphonyUI\PageObjects\obj\Debug\PageObjects.pdb
-C:\Symphony\Repos\SymphonyUI\PageObjects\bin\Debug\chromedriver.exe
+C:\Symphony\Repos\SymphonyUI\PageObjects\bin\Debug\WebDriver.Support.dll
+C:\Symphony\Repos\SymphonyUI\PageObjects\bin\Debug\WebDriver.Support.xml

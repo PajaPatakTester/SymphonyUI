@@ -8,7 +8,7 @@ namespace Framework
 {
     public static class WebDriver
     {
-        public static readonly TimeSpan ImplicitWaitTimeout = TimeSpan.FromSeconds(10);
+        public static readonly TimeSpan ImplicitWaitTimeout = TimeSpan.FromSeconds(15);
         public static readonly TimeSpan PageLoad = TimeSpan.FromSeconds(20);
         public static IWebDriver Instance { get; set; }
 
@@ -16,7 +16,6 @@ namespace Framework
         {
             var chromeOptions = new ChromeOptions();
             chromeOptions.AddUserProfilePreference("disable-popup-blocking", "true");
-            chromeOptions.PageLoadStrategy = PageLoadStrategy.None;
             return chromeOptions;
         }
 
@@ -52,6 +51,9 @@ namespace Framework
             {
                 Thread.Sleep(TimeSpan.FromMilliseconds(300));
                 maxWaitSec = -0.3;
+
+
+                Console.WriteLine($"Wait for it");
             }
         }
 
