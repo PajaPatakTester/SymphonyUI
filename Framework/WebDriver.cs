@@ -15,7 +15,8 @@ namespace Framework
         private static ChromeOptions GetChromeOptions()
         {
             var chromeOptions = new ChromeOptions();
-            chromeOptions.AddArgument("--disable-application-cache");
+            chromeOptions.AddUserProfilePreference("disable-popup-blocking", "true");
+            chromeOptions.PageLoadStrategy = PageLoadStrategy.None;
             return chromeOptions;
         }
 

@@ -10,7 +10,6 @@ namespace Framework
 
 
         [SetUp]
-        [System.Obsolete]
         public void Init()
         {
             _stopwatch.Restart();
