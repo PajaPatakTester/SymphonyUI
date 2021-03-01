@@ -1,2 +1,5 @@
-# SymphonyUI
-UI task for Symphony recruitment process
+UI testing framework
+
+Based on C#, Selenium WebDriver, NUnit, PageObjects
+
+Gherkin not implemented
