@@ -79,9 +79,9 @@ namespace TestSuite
 
             Assert.IsTrue(_homePage.VerifyNumberOfDisplayedPopularProducts(_popular), $@"Page should show {_popular} popular products but it is not.");
 
-            _homePage.BestSellersClick();
+            _homePage.PopularClick();
 
-            Assert.IsTrue(_homePage.VerifyNumberOfDisplayedBestSellersProducts(_bestSellers), $@"Page should show {_bestSellers} Best Sellers products but it is not.");
+            Assert.IsTrue(_homePage.VerifyNumberOfDisplayedPopularProducts(_bestSellers), $@"Page should show {_bestSellers} Best Sellers products but it is not.");
         }
 
         [Test]

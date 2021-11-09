@@ -25,3 +25,9 @@ C:\Symphony\Repos\SymphonyUI\Driver\obj\Debug\Driver.csproj.CoreCompileInputs.ca
 C:\Symphony\Repos\SymphonyUI\Driver\obj\Debug\Driver.dll
 C:\Symphony\Repos\SymphonyUI\Driver\obj\Debug\Driver.pdb
 C:\Symphony\Repos\SymphonyUI\Driver\obj\Debug\Driver.csprojAssemblyReference.cache
+C:\Users\branko.sikirica\Documents\Administracija\Symphony\Repos\SymphonyUI\Driver\bin\Debug\chromedriver.exe
+C:\Users\branko.sikirica\Documents\Administracija\Symphony\Repos\SymphonyUI\Driver\bin\Debug\Driver.dll
+C:\Users\branko.sikirica\Documents\Administracija\Symphony\Repos\SymphonyUI\Driver\bin\Debug\Driver.pdb
+C:\Users\branko.sikirica\Documents\Administracija\Symphony\Repos\SymphonyUI\Driver\obj\Debug\Driver.csproj.CoreCompileInputs.cache
+C:\Users\branko.sikirica\Documents\Administracija\Symphony\Repos\SymphonyUI\Driver\obj\Debug\Driver.dll
+C:\Users\branko.sikirica\Documents\Administracija\Symphony\Repos\SymphonyUI\Driver\obj\Debug\Driver.pdb

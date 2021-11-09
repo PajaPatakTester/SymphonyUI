@@ -29,6 +29,7 @@ namespace PageObjects
 
         public void SignInClick() => SignInBtn().Click();
         public void BestSellersClick() => BestSellersBtn().Click();
+        public void PopularClick() => PopularBtn().Click();
         public void SearchForProduct(string name)
         {
             SearchField().SendKeys(name);
